@@ -1,0 +1,58 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background-color: bisque;
+}
+
+#heading {
+   text-align: center;
+   text-decoration: underline;
+   margin-bottom: 1rem;
+ }
+ 
+ .buttons {
+   display: flex;
+   justify-content: center;
+   margin-bottom: 1.5rem;
+ }
+ 
+ button {
+   color: #FFF;
+   background-color: blue;
+   padding: .65rem;
+   margin-right: 1rem;
+ }
+
+ #reload {
+   display: none;
+ }
+ 
+ .counters {
+   display: flex;
+   justify-content: center;
+   margin: auto;
+   gap: 1rem;
+ }
+ 
+ .counters p {
+   color: #FFF;
+   background-color: crimson;
+   text-align: center;
+   width: 5vw;
+   padding: .5rem;
+   border: 1px solid #000;
+ }
+
+ #errmsg {
+   color: navy;
+   font-size: 26px;
+   font-weight: bold;
+   display: flex;
+   margin-top: 2rem;
+   justify-content: center;
+ }
+ 
