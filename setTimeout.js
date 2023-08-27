@@ -14,7 +14,7 @@ const cancelAlert = () => {
 
 let calcCounterTimeoutID;
 let counter = 0;
-let timer = 1;
+let timer = 100;
 let idPrefix = "counter";
 let idPostfix;
 const countersDad = document.querySelector(".counters");
@@ -28,6 +28,7 @@ const calculateCounter = () => {
       pElement.setAttribute("id", `${idPrefix}${idPostfix}`);
       pElement.textContent = counter;
       countersDad.appendChild(pElement);
+      timer += 100;
     } else {
       document.getElementById("errmsg").innerHTML =
         "All calculations now completed - Click Reload to start again";
